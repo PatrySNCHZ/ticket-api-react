@@ -1,4 +1,4 @@
-const FlightFiter = () => {
+const FlightFilter = () => {
 
     return(
         <div>
@@ -34,4 +34,4 @@ const FlightFiter = () => {
     )
 }
 
-export default FlightFiter;
+export default FlightFilter;
