@@ -4,6 +4,7 @@ import FlightForm from './components/Flights/FlightForm';
 import FlightFilter from './components/Flights/FlightFilter';
 import axios from 'axios';
 import FlightInfo from './components/FlightInfo';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
 
@@ -13,7 +14,10 @@ function App() {
     <div className="App">
       
       <FlightFilter/>
-      <FlightForm/>
+
+                <FlightForm/>
+
+   
       <FlightInfo/>
 
     </div>
